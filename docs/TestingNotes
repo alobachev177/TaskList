@@ -1,0 +1,2 @@
+1. Check that accumulated per platform downtime value correctly processed with Java LocalTime data type
+   in the code and TIME in DB when accumulates value is grater than 23:59:59
