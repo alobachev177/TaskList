@@ -1,8 +1,13 @@
 package application.model;
 
+import lombok.Data;
+import lombok.ToString;
+
 import javax.persistence.*;
 
 @Entity
+@Data
+@ToString
 public class Organization {
 
     @Id

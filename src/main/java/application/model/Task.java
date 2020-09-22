@@ -44,4 +44,12 @@ public class Task {
     @Column(name = "updated_by")
     private User updatedBy;
 
-}
+    @Column(name = "task_complexity")
+    private int complexity;
+
+    @Column(name = "concurrent_task_id")
+    private int concurrentTaskId;
+
+    @Column(name = "impact")
+    private Impact impact;
+ }

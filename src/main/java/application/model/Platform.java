@@ -1,12 +1,14 @@
 package application.model;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.time.LocalTime;
 
 @Entity
 @Data
+@ToString
 public class Platform {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
